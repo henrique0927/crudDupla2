@@ -1,0 +1,7 @@
+create database crudEmDupla;
+use crudEmDupla;
+
+create table user (
+	user_id int primary key not null auto_increment,
+    user_nota varchar(255)
+)
