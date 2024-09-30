@@ -1,7 +1,13 @@
+-- drop database crudEmDupla;
 create database crudEmDupla;
 use crudEmDupla;
 
 create table user (
 	user_id int primary key not null auto_increment,
-    user_nota varchar(255)
+    user_nome varchar(255)
+);
+
+create table nota (
+	nota_id int primary key not null auto_increment,
+    nota_texto varchar(255)
 )
